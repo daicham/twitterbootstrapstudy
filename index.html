@@ -6,11 +6,25 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 <body>
-	<div class="container">
-		<form>
-			<label>名前</label>
-			<input type="text" name="name">
-			<input type="submit" value="送信" class="btn">
+	<div class="container" style="padding-top:20px">
+		<form class="form-horizontal">
+			<div class="control-group">
+				<label class="control-label">名前</label>
+				<div class="controls">
+					<input type="text" name="name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label">メアド</label>
+				<div class="controls">
+					<input type="text" name="email">
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="controls">
+					<input type="submit" value="送信" class="btn">
+				</div>
+			</div>
 		</form>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
